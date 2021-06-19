@@ -1,0 +1,38 @@
+Models:
+
+About: {
+  "bandMemberName":"Tom",
+  "description":"Awesome Guy",
+  "imgUrl":"www.fake.com"
+}
+
+Contact: {
+  "title":"Tommy",
+  "email":"Tommy@dtr.com",
+  "phone":"303-332-9869"
+}
+
+Item: {
+  "title":"Hoodie",
+  "description":"A cool hoodie!",
+  "price": 69.99
+}
+
+Music: {
+  "title":"Song 1"
+}
+
+Show: {
+  "title":"DTR downtown pub",
+  "location":"123 fake st. city state",
+  "dateOf":"2021-06-18"
+  "imgUrl":"www.fkcd.com",
+  "eventLink":"www.fkcd.com/tickets",
+  "description":"Fun fun fun, 10$ at the door"
+}
+
+Video: {
+  "title":"DTR goes nuts",
+  "url":"www.youtube.com/1",
+  "description":"Fun day!"
+}
