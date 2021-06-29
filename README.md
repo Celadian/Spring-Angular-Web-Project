@@ -2,6 +2,7 @@
 Monolithic Restful spring boot application with h2, RestControllers, and an embedded angular ui project
 
 ## Technologies used
+Java version: java 11 adopt-openjdk-11 version 11.0.11
 
 Spring boot
 
