@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Thoma\Documents\Projects\Java\dtr-backend-0.1\dtr-angular-ui\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Thoma\Documents\Projects\DTR\dtr-backend-0.1\dtr-angular-ui\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
