@@ -9,11 +9,17 @@ public class About {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String bandMemberName;
+    private String title;
     private String description;
-    private String imgUrl;
+    private String imgurl;
 
     public About() {
+    }
+
+    public About(String title, String description, String imgUrl) {
+        this.title = title;
+        this.description = description;
+        this.imgurl = imgUrl;
     }
 
     public Integer getId() {
@@ -24,12 +30,12 @@ public class About {
         this.id = id;
     }
 
-    public String getBandMemberName() {
-        return bandMemberName;
+    public String getTitle() {
+        return title;
     }
 
-    public void setBandMemberName(String bandMemberName) {
-        this.bandMemberName = bandMemberName;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getDescription() {
@@ -41,11 +47,11 @@ public class About {
     }
 
     public String getImgUrl() {
-        return imgUrl;
+        return imgurl;
     }
 
     public void setImgUrl(String imgUrl) {
-        this.imgUrl = imgUrl;
+        this.imgurl = imgUrl;
     }
 
     @Override
@@ -53,21 +59,21 @@ public class About {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         About about = (About) o;
-        return Objects.equals(id, about.id) && Objects.equals(bandMemberName, about.bandMemberName) && Objects.equals(description, about.description) && Objects.equals(imgUrl, about.imgUrl);
+        return Objects.equals(id, about.id) && Objects.equals(title, about.title) && Objects.equals(description, about.description) && Objects.equals(imgurl, about.imgurl);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, bandMemberName, description, imgUrl);
+        return Objects.hash(id, title, description, imgurl);
     }
 
     @Override
     public String toString() {
         return "About{" +
                 "id=" + id +
-                ", bandMemberName='" + bandMemberName + '\'' +
+                ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
-                ", imgUrl='" + imgUrl + '\'' +
+                ", imgUrl='" + imgurl + '\'' +
                 '}';
     }
 }

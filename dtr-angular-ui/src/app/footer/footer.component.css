@@ -1,0 +1,8 @@
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    min-height: 8rem;
+    width:100%;
+    background:#858585;
+ }

@@ -7,14 +7,20 @@
     padding-right: 1rem;
 }
 
-.navbar-brand {
-    margin-top: 5px;
-    justify-content: flex-end;
+.logo {
+
 }
 
 .navbar-collapse {
-    font-size: 1rem;
+    font-size: 2rem;
+    
 }
+
+.logo {
+    margin-left: -1rem;
+}
+
+
 
 
 

@@ -1,7 +1,5 @@
-Models:
-
 About: {
-  "bandMemberName":"Tom",
+  "title":"Tom",
   "description":"Awesome Guy",
   "imgUrl":"www.fake.com"
 }

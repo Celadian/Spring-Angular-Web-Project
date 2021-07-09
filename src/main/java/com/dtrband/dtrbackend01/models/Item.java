@@ -15,6 +15,12 @@ public class Item {
     public Item() {
     }
 
+    public Item(String title, String description, double price) {
+        this.title = title;
+        this.description = description;
+        this.price = price;
+    }
+
     public Integer getId() {
         return id;
     }

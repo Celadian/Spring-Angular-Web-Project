@@ -16,6 +16,12 @@ public class Contact {
     public Contact() {
     }
 
+    public Contact(String title, String email, String phone) {
+        this.title = title;
+        this.email = email;
+        this.phone = phone;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -23,6 +23,16 @@ public class Show {
     public Show() {
     }
 
+    public Show(String title, String location, Date dateOf, Date datePosted, String imgUrl, String eventLink, String description) {
+        this.title = title;
+        this.location = location;
+        this.dateOf = dateOf;
+        this.datePosted = datePosted;
+        this.imgUrl = imgUrl;
+        this.eventLink = eventLink;
+        this.description = description;
+    }
+
     public Date getDatePosted() { return datePosted; }
 
     public void setDatePosted(Date datePosted) { this.datePosted = datePosted; }

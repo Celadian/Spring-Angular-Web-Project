@@ -27,9 +27,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
-	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
@@ -70,7 +68,6 @@ task copyAngular(type: Copy, dependsOn: compileAngular) {
 tasks.processResources.dependsOn(copyAngular)
 
 task testAngular(type: NpmTask, dependsOn: npmInstall) {
-	// Touching for sanity
 	def inputFiles = project.fileTree(dir: "${angularDir}", exclude: "**/karma-test-results.xml")
 	inputs.files(inputFiles)
 

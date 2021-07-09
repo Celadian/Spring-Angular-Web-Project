@@ -13,6 +13,10 @@ public class Music {
     public Music() {
     }
 
+    public Music(String title) {
+        this.title = title;
+    }
+
     public Integer getId() {
         return id;
     }

@@ -21,7 +21,7 @@ public class AboutService {
 
     public void updateById(About about) {
         About oldAbout = aboutRepository.findById(about.getId()).get();
-        if(about.getBandMemberName() != null)oldAbout.setBandMemberName(about.getBandMemberName());
+        if(about.getTitle() != null)oldAbout.setTitle(about.getTitle());
         if(about.getDescription() != null)oldAbout.setDescription(about.getDescription());
         if(about.getImgUrl() != null)oldAbout.setImgUrl(about.getImgUrl());
         aboutRepository.save(oldAbout);
