@@ -1,4 +1,4 @@
-# dtr-backend-0.1
+# Spring boot with angular project
 Monolithic Restful spring boot application with h2, RestControllers, and an embedded angular ui project
 
 ## Technologies used
