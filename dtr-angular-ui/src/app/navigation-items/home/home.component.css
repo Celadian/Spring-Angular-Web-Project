@@ -1,6 +1,14 @@
 .home-background {
     display: flex;
     padding-top: 5rem;
+    justify-content: center;
     
-    
+
+}
+
+.responsive {
+  max-width: 100vw;
+  height: auto;
+  
+
 }

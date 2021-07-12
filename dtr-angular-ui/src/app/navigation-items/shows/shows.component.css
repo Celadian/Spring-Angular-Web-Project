@@ -1,5 +1,28 @@
 .card {
-    width: 100%;
-    margin-bottom: 2rem;
+    width: 70%;
+    margin-bottom: 3rem;
+
+}
+@media  only screen and (min-width : 1025px) {
+    .card {
+        width: 24vw;
+        margin-bottom: 3rem;
+    }
+}
+
+.page-content {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    border: 0;
+}
+
+.btn {
+    color:white;
+    background-color: #737373;
+    border-color: white;
 }

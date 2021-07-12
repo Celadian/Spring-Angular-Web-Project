@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './navigation-items/about/about.component'
 import { MusicComponent } from './navigation-items/music/music.component'
@@ -27,7 +25,7 @@ import { HomeComponent } from './navigation-items/home/home.component';
     ShowsComponent,
     VideosComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
