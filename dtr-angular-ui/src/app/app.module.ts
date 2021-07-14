@@ -11,6 +11,9 @@ import { ShowsComponent } from './navigation-items/shows/shows.component'
 import { VideosComponent } from './navigation-items/videos/videos.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './navigation-items/home/home.component';
+import {TextFieldModule} from '@angular/cdk/text-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
 
 
 
@@ -30,7 +33,9 @@ import { HomeComponent } from './navigation-items/home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    TextFieldModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

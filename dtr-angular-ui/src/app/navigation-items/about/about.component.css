@@ -1,5 +1,35 @@
 .page-content {
-	margin-left: 5vw;
-	margin-right: 5vw;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
+
+.card{
+	width: 100%;
+	margin-bottom: 2vh;
+	color: black;
+	font-weight: bold;
+
+}
+@media  only screen and (min-width : 1025px) {
+	.card{
+		width: 50vw;
+		color: #737373;
+		font-weight: bold;
+	}
+}
+
+
+.label {
+	padding-left: 0.5vw;
+	font-size: 32px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	margin-bottom: -50px;
+	z-index: 1;
+	overflow: wrap;
+	top: 0;
+}
+
+

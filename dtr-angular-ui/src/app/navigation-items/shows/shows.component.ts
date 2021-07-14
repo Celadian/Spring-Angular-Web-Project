@@ -12,4 +12,10 @@ export class ShowsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onScroll(event: any) { 
+    console.log("scroll");
+  }
+
+  
+
 }

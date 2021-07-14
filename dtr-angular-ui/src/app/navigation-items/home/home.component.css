@@ -2,6 +2,8 @@
     display: flex;
     padding-top: 5rem;
     justify-content: center;
+    min-height: 20vh;
+    padding-bottom: 38vh;
     
 
 }
@@ -9,6 +11,4 @@
 .responsive {
   max-width: 100vw;
   height: auto;
-  
-
 }
