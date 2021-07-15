@@ -4,7 +4,7 @@
   width: 100%;
   padding-right: 2vw;
   padding-left: 2vw;
-  padding-bottom: 10vh;
+  padding-bottom: 3vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
     width: 100%;
     padding-right: 35vw;
     padding-left: 35vw;
-    padding-bottom: 10vh;
+    padding-bottom: 3vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -27,6 +27,7 @@
 
 
 .label {
+  padding-top: 1.5vh;
   float: left;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -36,6 +37,8 @@
 .input-label {
   color: white;
 }
+
+
 
 .example-form {
   color: white;

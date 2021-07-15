@@ -10,15 +10,15 @@ export class AppComponent {
   // private navIndex = 0;
   title = 'dtr-angular-ui';
 
-  constructor(/*@Inject(DOCUMENT) document: any*/){
-  //   window.addEventListener('wheel', function(event){
-  //     if (event.deltaY < 0){
-  //       console.log('scrolling up');
-  //       // document.getElementById('status').textContent= 'scrolling up';
-  //     } else if (event.deltaY > 0) {
-  //       console.log('scrolling down');
-  //       // document.getElementById('status').textContent= 'scrolling down';
-  //     }
-  //   });
+  constructor(@Inject(DOCUMENT) document: any){
+    window.addEventListener('wheel', function(event){
+      if (event.deltaY < 0){
+        console.log('scrolling up');
+        // document.getElementById('status').textContent= 'scrolling up';
+      } else if (event.deltaY > 0) {
+        console.log('scrolling down');
+        // document.getElementById('status').textContent= 'scrolling down';
+      }
+    });
   }
 }

@@ -1,13 +1,67 @@
-.page-content {
-	margin-left: 5vw;
-	margin-right: 5vw;
-    justify-content: center;
-}
 
+
+
+.example-card {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    width: 100%;
+    color: black;
+	background-color: white;
+    margin-bottom: 2vh;
+	
+  }
 @media  only screen and (min-width : 1025px) {
-	.page-content {
-	margin-left: 25vw;
-	margin-right: 25vw;
-    justify-content: center;
-	}
+.example-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+    width: 25%;
+    margin-bottom: 2vh;
+	
+  }
 }
+  .mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+                0 1px 1px 0 rgba(0,0,0,1), 
+                0 1px 3px 0 rgba(0,0,0,1);
+    }
+	.page-content {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.card-poster{
+		width: 100%;
+	}
+	.card-title {
+		margin-right: 2vw;
+		font-weight: bold;
+	}
+	.fas {
+		font-size: 2rem;
+	}
+
+	.fas:hover{
+		color: gray;
+	}
+
+	p {
+		font-style: italic;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
+
+	.card-info{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		box-shadow: 0 2px 1px -1px rgba(0,0,0,1), 
+                0 1px 1px 0 rgba(0,0,0,1), 
+                0 1px 3px 0 rgba(0,0,0,1);
+    	
+	}
