@@ -4,9 +4,11 @@ Monolithic Restful spring boot application with h2, RestControllers, and an embe
 ## Technologies used
 Java version: java 11 adopt-openjdk-11 version 11.0.11
 
-Node Version: 14.16.0
+Angular CLI: 12.1.1
 
-NPM Version 7.19.0
+Node: 14.17.3
+
+Package Manager: npm 7.20.0
 
 Spring boot
 
